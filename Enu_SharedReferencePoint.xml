@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ToolBox>
+  <RootCategory name="Subscription Extension Manager" 
+                description="" 
+                version="" 
+                confile="%DataDir%\ToolBox\Subscription_Icons.ico" 
+                readonly="false">
+    <Category name="Autodesk Shared Reference Point" 
+              helpfile="" 
+              helptopic="" 
+              tooltip="" 
+              description="Autodesk® Shared Reference Point 2017 © 2013-2016  Autodesk, Inc.  All rights reserved.  &#xD;&#xA;&#xD;&#xA;All use of this Software is subject to the terms and conditions of Autodesk Subscription and the Autodesk license and services agreement accepted upon installation of the underlying AutoCAD Civil 3D software and/or Autodesk Revit software product and/or packaged with the underlying AutoCAD Civil 3D software or Autodesk Revit software product. &#xD;&#xA;&#xD;&#xA;Trademarks&#xD;&#xA;Autodesk, AutoCAD, and Civil 3D are registered trademarks or trademarks of Autodesk, Inc., and/or its subsidiaries and/or affiliates.&#xD;&#xA;All other brand names, product names or trademarks belong to their respective holders.&#xD;&#xA;" 
+              version="2016.0" 
+              iconfile="%DataDir%\ToolBox\Shared Reference Points Extension.ico" 
+              readonly="false">
+      <Tool name="Export Shared Reference Points for Autodesk Revit" 
+            helpfile="" 
+            helptopic="" 
+            tooltip="Exports XML file for Revit to create Shared Coordinates" 
+            executefile="%DataDir%\..\..\Shared Reference Point\AcRVTDWGCoordsSyncAcadClient.dll" 
+            executetype="CMD" 
+            macroname="AcCoordSysExport" 
+            description="Exports XML file with shared coordinates for use in Autodesk Revit" 
+            readonly="false" />
+    </Category>
+  </RootCategory>
+</ToolBox>
