@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+   <AddIn Type="Application">
+      <Assembly>.\Shared Reference Point\AcRVTDWGCoordsSyncRevitClient.dll</Assembly>
+      <ClientId>E003E9F9-FF3B-44A7-96E7-6113CEB5EA5F</ClientId>
+      <FullClassName>AcRVTDWGCoordsSyncRevitClient.AppExternal</FullClassName>
+      <Name>Autodesk Shared Reference Point</Name>
+      <VendorId>Autodesk</VendorId>
+      <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+   </AddIn>
+</RevitAddIns>
